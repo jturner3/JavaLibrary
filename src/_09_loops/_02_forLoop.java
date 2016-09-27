@@ -40,11 +40,28 @@ public class _02_forLoop {
 		
 		double balance = 5000;
 		double rate = 1.02; //2% interest
-		for(int i = 0; i <= 10; i++){
+		for(int i = 0; i < 10; i++){
 			balance *= rate; //balance = balance * rate
 		}
-		
-		System.out.println(balance);
+			System.out.println(balance);
+			
+			String spaces = "There are spaces in this string";
+			int numSpaces = 0;
+			//Printing out the number of spaces in a string 
+			//System.out.println(spaces.length());
+			
+			//Printing out a single character in a string
+			//System.out.println(spaces.charAt(30));
+			
+			//Printing out string one character at a time
+			for (int i = 0; i < spaces.length();i++) {
+				System.out.println(spaces.charAt(i));
+			}
+			
+			
+			
+			
+			
 	}
 
 }
