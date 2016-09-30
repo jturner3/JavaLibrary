@@ -26,7 +26,63 @@ public class _01_while {
 			countThree -= 5 ;
 		}
 		
+		for(int i = 0; i <= 10; i++){
+			System.out.println(i);
+		}
 		
+		for (int i =0; i <= 10; i+= 2){
+			System.out.println(i);
+		}
+	
+		
+		for (int i = 0; i <=30; i+=3){
+			System.out.println(i);
+			if(i == 15){
+				System.out.println("midpoint");
+			} else {
+				System.out.println(" ");
+		}
+		}
+		
+		for(int i = 0; i <=100; i+=7){
+			System.out.println(i);
+			if(i == 28 || i == 49){
+				continue;
+			}
+			System.out.println(i);
+		}	
+			
+		for(int i = 0; i <=100; i+=7){
+			if(i != 28 && i != 49){
+				System.out.println(i);
+			}
+		}
+			
+	
+	
+		//Count from 1 -10.
+		//Console: The number is (number).
+		//Console: If it's five, print "I'm Alive."
+		
+		for(int i = 0; i<=10; i+=1){
+		if(i == 5){
+			System.out.println(" I'm Alive.");
+		}else{
+			System.out.println("The number is "+i);
+		}	
+	}
+		//FizzBuzz Example
+		
+		for(int i = 0; i<=100; i+=1){
+		if (((i % 5) == 0) && ((i % 7) == 0))
+		System.out.println("Fizzbuzz");
+		else if ((i % 5) == 0) System.out.print("fizz");
+    	 else if ((i % 7) == 0) System.out.print("buzz"); 
+    	 else System.out.print(i);                        
+    	 System.out.print(" ");
+		
+		}	
+			System.out.println();
 		
 		
 		

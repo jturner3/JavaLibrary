@@ -1,4 +1,4 @@
-package _04_Strings;
+Stpackage _04_Strings;
 
 public class _01_Strings {
 	public static void main(String[] args) {
