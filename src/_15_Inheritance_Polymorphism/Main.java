@@ -1,5 +1,7 @@
 package _15_Inheritance_Polymorphism;
 
+import _17_Encapsulation.PatriotsPlayers;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -34,6 +36,11 @@ public class Main {
 		jack.printFood();
 		barney.printFood();
 		mickey.printFood();
+		
+		PatriotsPlayers lBlount = new PatriotsPlayers();
+		lBlount.name = "Legaratte Blount";
+		lBlount.isACheater = true;
+		
 		
 	}
 
